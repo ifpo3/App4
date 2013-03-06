@@ -41,7 +41,7 @@ namespace App4
         /// <param name="args">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs args)
         {
-            Frame rootFrame = Window.Current.Content as Frame;
+            Frame rootFrame = Window.Current.Content as Frame3;
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
